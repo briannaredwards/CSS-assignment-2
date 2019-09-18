@@ -26,29 +26,31 @@ body {
     background: #333;
     margin: 0;
 }
-
 img {
-    margin-top: 35px;
     max-width: 100%; /* DO NOT delete or change this line */
 }
 
 article {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    color: #000;
   }
-  
+
 section {
-  margin-bottom: 35px;
+  margin: 30px;
   max-width: 600px;
   box-sizing: border-box;
+  flex: 1 1 0;
+ }
+
+.text {
+   margin: 20px;
+   font-size: 100%;
+   line-height: 150%;
  }
 
 #cougar {
   background: #B26219;
-}
-
-#cougar .photo {
   color: #fff;
 }
 
@@ -59,22 +61,6 @@ section {
 #tiger {
   background: #FFBD82;
 }
-
-.text {
-  background: #fff;
-  color: #000;
-  padding: 20px;
-  font-size: 100%;
-  line-height: 150%;
-}
-
-  .text h2 {
-    text-align: center;
-  }
-
-  .photo {
-    color: #000;
-  }
 
 footer {
   text-align: center;
